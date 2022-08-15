@@ -1,0 +1,38 @@
+Some commands for Schemas and Databases
+
+
+CREATE SCHEMA CLASS;
+CREATE DATABASE CLASS;
+
+SHOW SCHEMAS;
+SHOW DATABASES;
+
+USE CLASS;
+
+
+
+Some commands for Tables
+
+CREATE TABLE tablename{
+    colname1 datatype/size constraints,
+    colname2 datatype/size constraints,...
+
+
+    "table constraints example"
+    primary key(columns),
+    foreign key(columns) references table (columns),
+    ...etc
+}
+
+DataTypes
+    INTEGER,INT,SMALLINT:Integer numbers
+    FLOAT, REAL,DOUBLE PRECISION: Floating-point numbers
+    CHAR(n),CHARACTER(n):Character-string datatype with a fixed length
+    VARCHAR(n),CHAR VARYING(n),CHARACTER VARYING(n):Character-string with no fixed length
+
+Other DataTypes 
+    Boolean:TRUE,FALSE,NULL
+    Date:YEAR,MONTH,DAY "YYYY-MM-DD"
+    Timestamp:DATE,TIME fields
+    Interval: not too sure yet will come back to it
+

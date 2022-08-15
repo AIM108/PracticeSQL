@@ -1,0 +1,1 @@
+This folder will contain some practice of sql code implementing CRUD
