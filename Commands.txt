@@ -36,3 +36,12 @@ Other DataTypes
     Timestamp:DATE,TIME fields
     Interval: not too sure yet will come back to it
 
+
+
+Domain lets you create a named datatype with specifics
+EX: CREATE DOMAIN SSN_TYPE AS CHAR(9);
+
+The example created a sudo datatype not actually a primary data type just a name datatype with specification
+
+
+
